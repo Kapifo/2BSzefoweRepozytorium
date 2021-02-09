@@ -1,0 +1,2 @@
+# SzefoweRepozytorium
+na informatyke
