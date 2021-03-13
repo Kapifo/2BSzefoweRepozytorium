@@ -1,0 +1,16 @@
+html *
+{
+font-family: 'Inconsolata', monospace !important;
+}
+h1
+{
+
+}
+#container 
+{
+    width: 400px;
+    margin: auto;
+    border: 1px solid rgb(145, 0, 0);
+    border-top: 10px solid purple;
+    padding: 15px;
+}
