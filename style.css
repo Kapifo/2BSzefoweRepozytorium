@@ -1,16 +1,56 @@
 html *
 {
 font-family: 'Inconsolata', monospace !important;
+background-color: #070506
 }
 h1
 {
+text-align: center;
+}
+h2
+{
+text-align: center;
+background: lightgrey;
+}
+h3
+{
 
 }
-#container 
+.sources
 {
-    width: 400px;
+text-align: right;
+padding: 10px;
+}
+.container 
+{
+    width: auto;
     margin: auto;
     border: 1px solid rgb(145, 0, 0);
-    border-top: 10px solid purple;
     padding: 15px;
+}
+a
+{
+    color: green;
+}
+a:link
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color:rgb(145, 0, 0);
+}
+.logo
+{
+    text-align: center;  
+}
+.content
+{
+    text-align: justify-all;
+}
+.image
+{
+    float: right; 
+    margin: 6px;
 }
