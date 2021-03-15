@@ -14,11 +14,12 @@ background: lightgrey;
 }
 h3
 {
-
+font-size: 20px;
+color: lightgreen;
 }
 .sources
 {
-
+font-size: 17px;
 text-align: right;
 padding: 10px;
 }
@@ -49,12 +50,17 @@ a:hover
 }
 .content
 {
+    font-size: 22px;
     text-align: justify-all;
 }
 .image
 {
+    border-image: url(.png) 30 round;
+    border-image: url(.jpg) 30 round;
     float: right; 
     margin: 6px;
+    padding: 2px;
+    border: 2px solid #555;
 }
 #footer
 {
@@ -67,4 +73,8 @@ a:hover
 .custom_header
 {
     
+}
+table, th, td
+{
+    border: 3px solid white;
 }
