@@ -45,7 +45,7 @@ a:hover
     color:rgb(145, 0, 0);
 }
 .logo
-{
+{   
     text-align: center;  
 }
 .content
@@ -77,4 +77,10 @@ a:hover
 table, th, td
 {
     border: 3px solid white;
+}
+.image-alt
+{
+    border-image: url(.png) 30 round;
+    border-image: url(.jpg) 30 round;
+    float: center;
 }
