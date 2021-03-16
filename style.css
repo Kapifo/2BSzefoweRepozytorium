@@ -6,6 +6,7 @@ background-color: #070506
 h1
 {
 text-align: center;
+color: white;
 }
 h2
 {
@@ -52,6 +53,7 @@ a:hover
 {
     font-size: 22px;
     text-align: justify-all;
+    color: white;
 }
 .image
 {
